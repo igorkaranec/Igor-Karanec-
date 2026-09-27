@@ -1,0 +1,134 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(18, 75px);
+    grid-auto-rows: 75px;
+    gap: 4px;
+}
+
+.container{
+    background-color: #b1ae24de;
+    color: white;
+    border-radius: 2.5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-size: 10px;
+    text-align: center;
+}
+
+.symbol{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.number{
+    left: 5px;
+    font-size: 11px;
+    text-align: left;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.helium {
+    grid-column: 18;
+}
+
+.thirteenth {
+    grid-column: 13;
+}
+
+.star {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin-top: 25px;
+    align-items: center;
+    line-height: 1;
+}
+
+.numbers {
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+    line-height: 1;
+}
+
+.alkali-metal {
+    background-color: rgb(255, 85, 0);
+}
+
+.alkaline-earth {
+    background-color: rgb(228, 162, 47);
+}
+
+.lanthanide {
+background-color: rgba(2, 39, 11, 0.792);
+}
+
+.semi-metal {
+background-color: rgba(25, 131, 143, 0.628);
+}
+
+.basic-metal {
+    background-color: rgb(27, 137, 73);
+}
+
+.nonmetal {
+    background-color: rgba(116, 104, 176, 0.705);
+}
+
+.halogens {
+    background-color: #ec1077;
+}
+
+.noble-gas {
+    background-color: rgb(139, 119, 84);
+}
+
+.actinide {
+    background: #6c1637d4;
+}
+
+.landa {
+    display: grid;
+    margin-top: 20px;
+    margin-left: 158px;
+    grid-template-columns: repeat(15, 75px);
+    grid-auto-rows: 75px;
+    gap: 4px;
+}
+
+.lantanoyidy {
+    color: white;
+    border-radius: 2.5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(2, 39, 11, 0.792);
+}
+
+
+.aanda {
+    display: grid;
+    margin-top: 99px;
+    margin-left: 79px;
+    grid-template-columns: repeat(15, 75px);
+    grid-auto-rows: 75px;
+    gap: 4px;
+}
+
+.actinoidy {
+    color: white;
+    border-radius: 2.5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #6c1637d4;
+}
